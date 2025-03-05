@@ -1,2 +1,2 @@
-# SoftwareSecurityHomeExam
-Final home exam of Software Security course.
+# Home Exam - Software Security Course
+The final home exam of the Software Security course.
