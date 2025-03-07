@@ -20,12 +20,13 @@ int main(int argc, long param_2)
     sVar2 = strlen(*(char **)(param_2 + 8));
     if (sVar2 <= (ulong)(long)local_4c) break;
 
-    printf("mine: %c\n", (char *)((long)local_4c + *(long *)(param_2 + 8)));
-    printf("his: %c\n", (char *)((long)&local_48 + (long)local_4c));
+    // ===================== ADD THIS LINE BELOW ======================
+    printf("password letter: %c\n", -(int)*( (char *)&local_48 + local_4c));
+    // ===================== ADD THIS LINE ABOVE ======================
 
     if ((int)*(char *)((long)&local_48 + (long)local_4c) !=
         -(int)*(char *)((long)local_4c + *(long *)(param_2 + 8))) {
-      exit(1);
+      // exit(1); NUKE THIS LINE
     }
     local_4c++;
   }
