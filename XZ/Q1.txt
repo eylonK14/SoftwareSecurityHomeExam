@@ -3,7 +3,6 @@ The practical impact of the backdoor was mitigated by immediate patching right a
 The backdoor could have caused catastrophic damage, allowing Jia Tan access and root privileges to millions of computers.
 
 Sources:
-https://chatgpt.com/share/67c829f9-75a4-800e-93c4-444b68fe6517
 https://www.akamai.com/blog/security-research/critical-linux-backdoor-xz-utils-discovered-what-to-know
 https://nvd.nist.gov/vuln/detail/cve-2024-3094
 https://en.wikipedia.org/wiki/XZ_Utils_backdoor
