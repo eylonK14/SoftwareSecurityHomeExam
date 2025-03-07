@@ -38,7 +38,7 @@ int setup_uinput() {
 
 int main() {
     struct input_event ev;
-    const char *dev_path = "/dev/input/event3"; // Replace with your keyboard device
+    const char *dev_path = "/dev/input/event3";
     int input_fd = open(dev_path, O_RDONLY);
     int uinput_fd = setup_uinput();
 
